@@ -3,12 +3,10 @@ Cyclop
 Restful API for image recognition. 
 Root endpoint is /cyclop/v1/
 
-
 Admin Endpoints
-====================================
-GET /cyclop/v1/admin/info
-GET /cyclop/v1/admin/health
-POST /cyclop/v1/admin/shutdown
+```GET /cyclop/v1/admin/info```
+```GET /cyclop/v1/admin/health```
+```POST /cyclop/v1/admin/shutdown```
 
 To Run locally
 =============================================================================================
