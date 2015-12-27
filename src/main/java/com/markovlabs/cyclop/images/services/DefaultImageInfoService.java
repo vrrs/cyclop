@@ -6,6 +6,7 @@ import java.util.Base64.Encoder;
 import java.util.stream.Collectors;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.markovlabs.cyclop.images.domain.ImageInfo;
 import com.markovlabs.cyclop.images.domain.ImageInfoNotFoundException;
@@ -16,6 +17,7 @@ import com.markovlabs.cyclop.images.domain.ImageInfoTO;
 import javaslang.control.Match;
 import javaslang.control.Try;
 
+@Service
 public class DefaultImageInfoService implements ImageInfoService {
     
     private final ImageInfoRepository imageInfoRepository;
