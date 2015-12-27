@@ -1,9 +1,9 @@
 Cyclop
 ===================================
-Restful API for image recognition. 
-Root endpoint is /cyclop/v1/
+Restful API for image recognition. <br />
+Root endpoint is ```/cyclop/v1/``` <br />
 
-Admin Endpoints
+Admin Endpoints <br />
 ```GET /cyclop/v1/admin/info``` <br />
 ```GET /cyclop/v1/admin/health``` <br />
 ```POST /cyclop/v1/admin/shutdown```<br />
